@@ -1,0 +1,29 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning"],
+      "responses": ["Hello!", "Hi there!", "Hey! How can I help?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodbye"],
+      "responses": ["See you!", "Goodbye!", "Have a great day!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Appreciate it"],
+      "responses": ["You're welcome!", "No problem!", "Anytime!"]
+    },
+    {
+      "tag": "activity",
+      "patterns": ["What are you doing", "What's up", "What is going on"],
+      "responses": ["I'm here to chat with you!", "Just chilling", "Helping you, of course!"]
+    },
+    {
+      "tag":"message",
+      "patterns":["are you ok?","are you do home work","ok"],
+      "responses":["yaa I am doing good","yes","ok"]
+    }
+  ]
+}
